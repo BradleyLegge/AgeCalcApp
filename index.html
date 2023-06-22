@@ -7,8 +7,26 @@
     <title>Age Calculator App</title>
 </head>
 <body>
-    
-    
+    <div class="hero-container">
+        <div class="form-container">
+            <p>DAY</p>
+            <p>MONTH</p>
+            <p>YEAR</p>
+            <input type="text" id="day-el" placeholder="DD"/>
+            <input type="text" id="month-el" placeholder="MM"/>
+            <input type="text" id="year-el" placeholder="YYYY"/>
+        </div>
+        <div class="logo-container">
+            <hr>
+            <button type="submit"><img src="images/icon-arrow.svg" class="icon"></button>
+        </div>
+        <div class="display-container">
+            <p><span id="year">--</span>years</p>
+            <p><span id="months">--</span>months</p>
+            <p><span id="days">--</span>days</p>
+        </div>
+    </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
