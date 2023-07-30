@@ -83,6 +83,23 @@ button{
     font-style: italic;
 }
 
+.display-container p{
+    color: var(--off-black)
+}
+
 .display-container span{
     color: var(--purple);
+}
+
+button:hover{
+    cursor: pointer;
+    color: var(--off-black);
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+input:focus::placeholder{
+    color: transparent;
 }
