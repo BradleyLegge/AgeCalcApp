@@ -60,8 +60,7 @@ input{
 }
 
 .logo-container{
-    display: flex;
-    justify-content: space-between;
+    text-align: right;
 }
 
 .icon{
